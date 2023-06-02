@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form - MeShop.</title>
+    <link rel="shortcut icon" href="./images/signup_icon.png" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <script src="./signup.js" defer></script>
+    <script src="./navbar.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar text-style">
+        <div id="logo-box">
+          <div class="material-symbols-outlined" id="menus">menu</div>
+          <div id="logo">MeShop.</div>
+        </div>
+        <div id="links">
+          <div id="login"><a>Login</a></div>
+        </div>
+      </nav>
+      <div class="wrap2">
+        <h1 class="text-style">Signup with us</h1>
+        <form class="form text-style">
+          <input type="text" name="first-name" id="first-name" placeholder="First Name" required/>
+          <input type="text" name="last-name" id="last-name" placeholder="Last Name" required/>
+          <input type="email" name="email" id="email" placeholder="Email" required />
+          <input type="password" name="password" id="password" placeholder="Password" required autocomplete="new-password"/>
+          <input type="text" name="conf-password" id="conf-password" placeholder="Confirm Password" required/>
+          <input type="submit" value="Create Your Account" id="submitBtn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

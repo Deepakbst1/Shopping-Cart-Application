@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MeShop-A Modern E-commerce Plateform</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/shop_icon.png" type="image/png" />
+    <link rel="stylesheet" href="./home-page.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <script src="./home-page.js" defer></script>
+    <script src="./navbar.js" defer></script>
+  </head>
+  <body>
+    <div class="imgDiv"></div>
+    <main class="root">
+      <!-- Navbar HTML -->
+      <nav class="navbar text-style">
+        <div id="logo-box">
+          <div class="material-symbols-outlined" id="menus">menu</div>
+          <div id="logo">MeShop.</div>
+        </div>
+        <div id="links">
+          <div id="login"><a>Login</a></div>
+          <div id="signup"><a href="./signup.html">SignUp</a></div>
+        </div>
+      </nav>
+      <div class="desc-wrapper">
+        <div class="left">
+          <div>
+            <!--logo part -->
+            <h1 class="page-heading text-style">MeShop.</h1>
+
+            <!-- buttons part -->
+            <div class="buttons">
+              <input type="button" value="Login" id="login-button" class="text-style"/>
+              <input type="button" value="Signup" id="signup-button" class="text-style"/>
+            </div>
+          </div>
+
+          <!-- Demo product area -->
+          <div class="demo-product text-style">
+            <div class="productPoster">
+              <div class="prodImage"></div>
+              <div class="prodTitle"></div>
+              <div class="prodPrice">
+                <div class="priceTag"></div>
+              </div>
+              <div class="prodRating"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About section area -->
+        <div class="right">
+          <div class="text-style">
+            <h1><b>About The Me.Shop</b></h1>
+            <p>Meshop is an Example of Shoping website like other, basically it is designed using Technologies HTML5 CSS3 and advance Javascript , 
+              In this website user feel free to shop like other website Everything done under the guidance of ACCIOJOB teams , 
+              there will be a signup page and login page which help to get enter user into the website to buy the product , 
+              User can use filter to serach product according color rating size and as well as the most important thing is price filter.</p>
+            <h1>Used Technologies</h1>
+            <p>
+              Meshop is a project to check anything that require while developent and developing a E-Commercial Website ,
+              data will be with the help of JSON and redirect to portal , the dummy data will be available and the project repository into github,
+              Signup and login handle using local storage - multiple users - if not logged in don’t let the person enter the shop or my cart or profile,
+              Filter available based on color,size,price.
+            </p>
+            <p>
+              Main Backbone of any E-Commercial platform is its storage, as it is
+              required to store the user details for validation and authetications purpose,
+              product details and many more. The local storage of the browser is
+              used to store the user details such as email and password, current
+              user details, product data that is fetched from the server and the
+              cart details of the products which is added by user choice.
+            </p>
+
+            <h1 >Features</h1>
+            <ul style="padding-left: inherit">
+              <li>
+                Signup and Login level authentications such as the user with two same email id
+                cannot signup, email and password check while login and other
+                basic authetications are also provided.
+                If in any case, the user deletes the local storage data, the website will automatically
+                redirect the user to the landing page on refreshing.
+                Same user can signup and login with multiple emails and
+                password. Every credentials will be stored in the local storage
+                from which the authentication will be done.
+              </li>
+              <li>
+                The shopping portal can only be accessed if the user is logged in, else the user will be
+                redirected to the landing page.The shopping portal has the features such as searching the
+                product, filtering and categorizing the products based on given
+                filter and category tags.
+              </li>
+              <li>
+                There will be a functionality cart icon will we available only user add somthing 
+                to the cart.Every product in portal has Add to Cart button, where the user
+                can add products in multiple quantity and remove it from the
+                cart as well.
+              </li>
+              <li>
+                We can initiate the dummy payment procedure using the RazorPay
+                API in test mode from the cart page only.
+              </li>
+              <li>
+                Designing of the website is totally depend on the basic front-end technologies used as HTML,css, and Javascript.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
